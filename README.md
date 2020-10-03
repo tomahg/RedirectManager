@@ -8,7 +8,7 @@ It requires only 7 files for business logic and data access, 2 controllers and 1
 
 <h2>New 2.0 version has a bit smaller appearance and multi-site support</h2>
 <p>Preview:</p>
-<p><img src="https://raw.githubusercontent.com/huilaaja/RedirectManager/master/images/redirect-manager-6.png" /></p>
+<p><img src="https://raw.githubusercontent.com/tomahg/RedirectManager/master/images/redirect-manager-6.png" /></p>
 
 <h2>Features</h2>
 <ul>
@@ -38,7 +38,7 @@ It requires only 7 files for business logic and data access, 2 controllers and 1
 
 <h2>Redirection rules</h2>
 <p>Here's couple of examples what kind of rules are possible.</p>
-<p><img src="https://raw.githubusercontent.com/huilaaja/RedirectManager/master/images/redirect-manager-2.png" /></p>
+<p><img src="https://raw.githubusercontent.com/tomahg/RedirectManager/master/images/redirect-manager-2.png" /></p>
 
 
 <h2>Minimum Requirements</h2>
@@ -56,17 +56,17 @@ It requires only 7 files for business logic and data access, 2 controllers and 1
 	<li>Apply manually Web.Config transformations</li>
 	<li>Go to www.yourproject.com/Admin/RedirectManager</li>
 </ol>
-<p><img src="https://raw.githubusercontent.com/huilaaja/RedirectManager/master/images/redirect-manager-1.png" /></p>
+<p><img src="https://raw.githubusercontent.com/tomahg/RedirectManager/master/images/redirect-manager-1.png" /></p>
 
 
 <h2>Instructions for usage</h2>
-<p><img src="https://raw.githubusercontent.com/huilaaja/RedirectManager/master/images/redirect-manager-3.png" /></p>
+<p><img src="https://raw.githubusercontent.com/tomahg/RedirectManager/master/images/redirect-manager-3.png" /></p>
 
 <h2>File structuce</h2>
-<p><img src="https://raw.githubusercontent.com/huilaaja/RedirectManager/master/images/redirect-manager-4.png" /></p>
+<p><img src="https://raw.githubusercontent.com/tomahg/RedirectManager/master/images/redirect-manager-4.png" /></p>
 
 <h2>Basic 404 redirect logic</h2>
-<p><img src="https://raw.githubusercontent.com/huilaaja/RedirectManager/master/images/redirect-manager-5.png" /></p>
+<p><img src="https://raw.githubusercontent.com/tomahg/RedirectManager/master/images/redirect-manager-5.png" /></p>
 
 <h2>Auto wire up</h2>
 <p>You can automatically populate the RedirectManager with data on following events from editors, moving pages in structure, renaming url segment and deleting from Waste Basket. Just put this in your InitializableModule: <br/>
