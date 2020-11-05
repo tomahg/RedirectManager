@@ -57,6 +57,9 @@ namespace WebProject.Redirects
                 fromUrl = "/";
             if (!fromUrl.StartsWith("/"))
                 fromUrl = "/" + fromUrl;
+            if (wildcard != true)
+                fromUrl = fromUrl.TrimEnd('/');
+
             using (var context = ServiceLocator.Current.GetInstance<RedirectDbContext>())
             {
                 var r = new RedirectRule()
@@ -84,6 +87,9 @@ namespace WebProject.Redirects
                 fromUrl = "/";
             if (!fromUrl.StartsWith("/"))
                 fromUrl = "/" + fromUrl;
+            if (wildcard != true)
+                fromUrl = fromUrl.TrimEnd('/');
+
             using (var context = ServiceLocator.Current.GetInstance<RedirectDbContext>())
             {
                 var r = context.RedirectRules.First(x => x.Id == id);

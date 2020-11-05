@@ -276,7 +276,7 @@
         {
             int n = RedirectService.AddRedirect(Request.Params["sortorder"].ParseIntOrDefault(),
                                                 Request.Params["host"],
-                                                Request.Params["fromurl"].Trim().TrimEnd('/'),
+                                                Request.Params["fromurl"].Trim(),
                                                 Request.Params["wildcard"].ParseBoolOrDefault(),
                                                 Request.Params["tourl"],
                                                 Request.Params["tocontentid"].ParseIntOrDefault(),
@@ -292,7 +292,7 @@
             int n = RedirectService.ModifyRedirect(CurrentRedirect.Id,
                                                     Request.Params["sortorder"].ParseIntOrDefault(),
                                                     Request.Params["host"],
-                                                    Request.Params["fromurl"].Trim().TrimEnd('/'),
+                                                    Request.Params["fromurl"].Trim(),
                                                     Request.Params["wildcard"].ParseBoolOrDefault(),
                                                     Request.Params["tourl"],
                                                     Request.Params["tocontentid"].ParseIntOrDefault(),
